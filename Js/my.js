@@ -173,14 +173,7 @@
                 imagen.onload = function(){
                     ctx.drawImage(imagen, 390, 0, 230, 230);
                 }
-                /*************************************************
-                // Imagen 2 mas pequeña a un lado de la horca //
-                var imagen = new Image();
-                imagen.src = "imagenes/ahorcado"+errores+".png";
-                imagen.onload = function(){
-                    ctx.drawImage(imagen, 620, 0, 100, 100);
-                }
-                *************************************************/
+                
             }
 
             /* ajustar coordenadas */
